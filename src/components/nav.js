@@ -3,8 +3,11 @@ import {Link} from 'react-router-dom';
 
 class Nav extends Component{
     render(){
+        const navStyle ={
+            padding: '0 8px'
+        }
         return(
-            <nav>
+            <nav style ={navStyle} className="blue darken-4">
                 <div className="nav-wrapper">
                     <Link to ="/" className="brand-logo">FISH COUNTS</Link>
                     <ul className ="right">
